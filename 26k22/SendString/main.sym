@@ -1,0 +1,81 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004-005 @sprintf_string
+006     main.c
+007     @PSTRINGC_19200_31766_31767.@SCRATCH1
+008     @PSTRINGC_19200_31766_31767.@SCRATCH2
+F55     CCP_5_LOW
+F55     CCP_5
+F56     CCP_5_HIGH
+F58     CCP_4
+F58     CCP_4_LOW
+F59     CCP_4_HIGH
+F5E     CCP_3
+F5E     CCP_3_LOW
+F5F     CCP_3_HIGH
+F67     CCP_2
+F67     CCP_2_LOW
+F68     CCP_2_HIGH
+F78.6   C2OUT
+F79.6   C1OUT
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000508  @const676.call
+00054E  @const681.call
+00058E  @PSTRINGC_19200_31766_31767
+0005B0  @PUTCHARI_BIU_1
+0005BA  @cinit1
+0005BA  main
+0005E2  @cinit2
+
+Project Directory:
+    C:\Users\rodri\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmwares testes\26k22\SendString\
+
+Project Files:
+    main.c                                                  [13-set-16 18:14  CRC=4A0AE43B]
+    main.h                                                  [13-set-16 16:42  CRC=8E9867DA]
+    ..\..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F26K22.h [22-abr-16 11:24  CRC=97B61057]
+    ..\..\..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\bootloader.h [17-abr-14 12:29  CRC=10C6F83E]
+
+Source signature=91E74CE8
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=17C0
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F26K22
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
