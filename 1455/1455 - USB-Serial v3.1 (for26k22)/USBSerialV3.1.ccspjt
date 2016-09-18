@@ -1,0 +1,35 @@
+[PROJECT]
+Target=USBSerialV3.1.hex
+Processor_Text=PIC16F1455
+CCSVersion=5.058
+Compiler=PCM
+[Target Data]
+FileList=USBSerialV3.1.c
+[USBSerialV3.1.c]
+Type=4
+[mru-list]
+1=USBSerialV3.1.c
+
+[defines]
+buildcount=3
+
+[Opened Files]
+1=USBSerialV3.1.c
+t1=10
+Count=2
+2=USBSerialV3.1.h
+t2=57
+[Units]
+Count=1
+1=USBSerialV3.1 (main)
+
+[ProjectLog]
+Days=1
+D1=18-09-2016
+D1_L=2
+D1_L1=[61183]Stopped Editing.
+TotalEdit=3
+TotalDebug=0
+D1_E=3
+D1_D=0
+D1_L2=[61183]Project Closed.

@@ -1,4 +1,0 @@
->>> Warning 205 "C:\Program Files (x86)\PICC\Drivers\loader.c" Line 185(1,1): Unsigned variable is never less than zero
-      Memory usage:   ROM=1%      RAM=2% - 3%
-      0 Errors,  1 Warnings.
-Build Successful.

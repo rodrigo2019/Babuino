@@ -1,0 +1,70 @@
+[PROJECT]
+Target=main.hex
+Processor_Text=PIC18F26K22
+CCSVerions=5.058
+Compiler=PCH
+CCSVersion=5.058
+[Target Data]
+FileList=main.c
+[Directories]
+Include=
+[C:\Users\rodri\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmwares testes\26k22\SendString\main]
+Type=4
+[mru-list]
+1=main.c
+
+[ProjectLog]
+Days=3
+D1=30-08-2016
+D1_L=6
+D1_L1=[56279]Project Opened.
+D1_L2=[56348]Started Editing.
+D1_L3=[56967]Stopped Editing.
+D1_L4=[57331]Started Editing.
+D1_L5=[57634]Stopped Editing.
+TotalEdit=22
+TotalDebug=0
+D1_E=6
+D1_D=0
+D1_L6=[75392]Project Closed.
+D2=13-09-2016
+D2_L=8
+D2_L1=[60109]Project Opened.
+D2_L2=[60125]Started Editing.
+D2_L3=[60243]Stopped Editing.
+D2_E=3
+D2_D=0
+D2_L4=[60243]Project Closed.
+D2_L5=[65626]Project Opened.
+D2_L6=[65652]Started Editing.
+D2_L7=[65662]Stopped Editing.
+D2_L8=[65662]Project Closed.
+D3=18-09-2016
+D3_L=6
+D3_L1=[59745]Project Opened.
+D3_L2=[59780]Started Editing.
+D3_L3=[60237]Stopped Editing.
+D3_L4=[60250]Started Editing.
+D3_L5=[60845]Stopped Editing.
+D3_E=13
+D3_D=0
+D3_L6=[60845]Project Closed.
+
+[Opened Files]
+1=main.c
+t1=1
+2=..\..\1938\babuino.h
+t2=25
+3=main.h
+t3=1
+Count=2
+4=main.h
+t4=1
+[main.c]
+Type=4
+
+[defines]
+buildcount=15
+[Units]
+Count=1
+1=main (main)
