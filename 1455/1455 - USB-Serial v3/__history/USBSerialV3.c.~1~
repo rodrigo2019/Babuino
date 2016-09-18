@@ -1,0 +1,20 @@
+#include <USBSerialV3.h>
+
+/* TODO: Use usb_cdc_putc() to transmit data to the USB
+virtual COM port. Use usb_cdc_kbhit() and usb_cdc_getc() to
+receive data from the USB virtual COM port. usb_enumerated()
+can be used to see if connected to a host and ready to
+communicate. */
+
+void main()
+{
+	usb_init();
+
+	while(TRUE)
+	{
+
+
+		//TODO: User Code
+	}
+
+}

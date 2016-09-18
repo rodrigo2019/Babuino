@@ -1,0 +1,11 @@
+>>> Warning 203 "C:\Program Files (x86)\PICC\Drivers\pic16f_usb.c" Line 441(1,1): Condition always TRUE
+>>> Warning 216 "USBSerialV3.c" Line 48(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_token_reset)
+>>> Warning 216 "USBSerialV3.c" Line 48(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_cdc_get_discard)
+>>> Warning 216 "USBSerialV3.c" Line 48(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_tbe)
+>>> Warning 216 "USBSerialV3.c" Line 48(1,2): Interrupts disabled during call to prevent re-entrancy:  (usb_cdc_flush_tx_buffer)
+>>> Warning 202 "C:\Users\rodri\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmware\1455\1455 - USB-Serial v3\USBSerialV3.h" Line 111(12,18): Variable never used:   parity
+>>> Warning 202 "C:\Users\rodri\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmware\1455\1455 - USB-Serial v3\USBSerialV3.h" Line 112(12,20): Variable never used:   dataBits
+>>> Warning 202 "C:\Users\rodri\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmware\1455\1455 - USB-Serial v3\USBSerialV3.h" Line 113(12,20): Variable never used:   stopBits
+      Memory usage:   ROM=55%      RAM=31% - 41%
+      0 Errors,  8 Warnings.
+Build Successful.
