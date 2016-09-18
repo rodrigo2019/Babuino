@@ -1,0 +1,14 @@
+#include <babuino.h>
+
+void main()
+{
+
+   while(TRUE)
+   {
+
+   output_toogle(PIN_13);
+
+      //TODO: User Code
+   }
+
+}

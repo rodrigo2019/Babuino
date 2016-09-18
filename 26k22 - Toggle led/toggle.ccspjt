@@ -1,0 +1,39 @@
+[PROJECT]
+Target=toggle.hex
+Processor_Text=PIC18F26K22
+CCSVerions=5.058
+Compiler=PCH
+CCSVersion=5.058
+[Target Data]
+FileList=toggle.c
+[Directories]
+Include=
+[D:\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmwares testes\26k22\26k22 - Toggle led\toggle]
+Type=4
+[mru-list]
+1=toggle.c
+
+[ProjectLog]
+Days=1
+D1=18-09-2016
+D1_L=3
+D1_L1=[66280]Project Opened.
+D1_L2=[66306]Started Editing.
+D1_L3=[66860]Stopped Editing.
+
+[Opened Files]
+1=toggle.c
+t1=3
+Count=3
+2=babuino.h
+t2=25
+3=..\..\1938\1938 - Send simple string\ex_bootload.c
+t3=45
+[toggle.c]
+Type=4
+
+[defines]
+buildcount=3
+[Units]
+Count=1
+1=toggle (main)

@@ -1,0 +1,95 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+005-008 main.i
+009-00C @PRINTF_L32U_19200_31766_31767.P1
+009     main.@SCRATCH1
+00A     @delay_ms1.P1
+00D     @PRINTF_L32U_19200_31766_31767.@SCRATCH1
+00E     @PRINTF_L32U_19200_31766_31767.@SCRATCH2
+00F     @PRINTF_L32U_19200_31766_31767.@SCRATCH3
+010     @PRINTF_L32U_19200_31766_31767.@SCRATCH4
+011     @PRINTF_L32U_19200_31766_31767.@SCRATCH5
+012     @PRINTF_L32U_19200_31766_31767.@SCRATCH6
+013     @PRINTF_L32U_19200_31766_31767.@SCRATCH7
+014     @PRINTF_L32U_19200_31766_31767.@SCRATCH8
+015-018 @DIV3232.P1
+019-01C @DIV3232.P1
+01D     @DIV3232.@SCRATCH1
+01E     @DIV3232.@SCRATCH2
+01F     @DIV3232.@SCRATCH3
+020     @DIV3232.@SCRATCH4
+021     @DIV3232.@SCRATCH5
+F55     CCP_5
+F55     CCP_5_LOW
+F56     CCP_5_HIGH
+F58     CCP_4_LOW
+F58     CCP_4
+F59     CCP_4_HIGH
+F5E     CCP_3_LOW
+F5E     CCP_3
+F5F     CCP_3_HIGH
+F67     CCP_2_LOW
+F67     CCP_2
+F68     CCP_2_HIGH
+F78.6   C2OUT
+F79.6   C1OUT
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000508  @DIV3232
+000596  @PRINTF_L32U_19200_31766_31767
+00063E  @delay_ms1
+000668  @cinit1
+000668  main
+00068C  @cinit2
+
+Project Directory:
+    D:\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmwares testes\26k22\26k22 - Toggle led\
+
+Project Files:
+    toggle.c                                                [18-set-16 18:29  CRC=D8102B21]
+    babuino.h                                               [18-set-16 16:46  CRC=571831B2]
+    C:\Program Files (x86)\PICC\Devices\18F26K22.h          [22-abr-16 11:24  CRC=97B61057]
+    C:\Program Files (x86)\PICC\Drivers\bootloader.h        [17-abr-14 12:29  CRC=10C6F83E]
+
+Source signature=E86C5DA6
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=D0EF
+
+Units:
+    toggle (main)
+
+Compiler Settings:
+    Processor:      PIC18F26K22
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   toggle.xsym
+    Errors:      toggle.err
+    Ext Symbols: toggle.esym
+    INHX32:      toggle.hex
+    Symbols:     toggle.sym
+    List:        toggle.lst
+    Debug/COFF:  toggle.cof
+    Project:     toggle.ccspjt
+    Call Tree:   toggle.tre
+    Statistics:  toggle.STA

@@ -1,0 +1,50 @@
+
+ROM used:   472/65536 (1%)
+            476/65536 (1%) including unused fragments
+
+            0.4 Average locations per line
+            94.4 Average locations per statement
+
+RAM used:   9/3896 (0%) at main() level
+            33/3896 (1%) worst case
+
+Stack used: 0 worst case (0 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   21     5 100  toggle.c
+   58     0   0  babuino.h
+  994     0   0  C:\Program Files (x86)\PICC\Devices\18F26K22.h
+  107     0   0  C:\Program Files (x86)\PICC\Drivers\bootloader.h
+----- -----
+ 1180     5 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     42   4    1             @delay_ms1
+0    116  12    5    131  3.1  main
+0    142  15   13             @DIV3232
+0    168  18   12             @PRINTF_L32U_19200_31766_31767
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               1
+    Statements              5
+    Comments                203
+    Volume (V)              138
+    Difficulty (D)          2.5
+    Effort to implement (E) 338
+    Time to implement (T)   0 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    115
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-004FE     0  1280  
+00500-00506     4  4  
+00508-0FFFE   468  63780  
+
+
+
