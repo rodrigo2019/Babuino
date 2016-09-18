@@ -1,10 +1,9 @@
-C L "main" 0 8 1 "FUNCTION"
-D G "__PCH__" 0 22 ""5.058""
-D G "__DEVICE__" 0 22 "2622"
-D G "__DATE__" 0 22 ""18-set-16""
-D G "__TIME__" 0 22 ""18:29:21""
-D G "_UNICODE" 0 22 ""?""
-D G "__EVAL" 0 22 ""?"" "Standard Header file for the PIC18F26K22 device ////////////////"
+D G "__PCH__" 0 0 ""5.058""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""18-set-16""
+D G "__TIME__" 0 0 ""18:57:56""
+D G "_UNICODE" 0 0 ""?""
+D G "__EVAL" 0 0 ""?"" "Standard Header file for the PIC18F26K22 device ////////////////"
 c L "set_tris_a" 2 3 6 "FUNCTION"
 f N "set_tris_a" 2 45 ""
 v L "value" 2 45 "int8" `54 
@@ -634,9 +633,9 @@ f N "read_adc" 2 640 ""
 f G "read_adc" 2 640 "int16()" `263 
 f N "read_adc" 2 641 ""
 v L "mode" 2 641 "int8" `264 
-f G "read_adc" 2 641 "int16(int8 mode,int32 pins)" `263 
+f G "read_adc" 2 641 "int16(int8 mode)" `263 
 f N "adc_done" 2 642 ""
-f B "adc_done" 2 642 "int8(int8 mode,int32 pins)" `263  "Constants used for SETUP_ADC() are:"
+f B "adc_done" 2 642 "int8(int8 mode)" `263  "Constants used for SETUP_ADC() are:"
 d G "ADC_OFF" 2 644 "0" "ADC Off"
 d G "ADC_CLOCK_DIV_2" 2 645 "0x100"
 d G "ADC_CLOCK_DIV_4" 2 646 "0x04"
@@ -1006,9 +1005,9 @@ f B "i2c_init" 2 811 "void(int8 stream,int32 baud)" `491  "#use spi() Prototypes
 f N "spi_xfer" 2 814 ""
 f B "spi_xfer" 2 814 "int8()" `494 
 f N "spi_xfer" 2 815 ""
-f G "spi_xfer" 2 815 "int16(int8 data)" `495 
+f G "spi_xfer" 2 815 "int16()" `495 
 f N "spi_xfer" 2 816 ""
-f G "spi_xfer" 2 816 "int32(int8 data)" `495 
+f G "spi_xfer" 2 816 "int32()" `495 
 f N "spi_xfer" 2 817 ""
 v L "data" 2 817 "int8" `496 
 f B "spi_xfer" 2 817 "int8(int8 data)" `495 
@@ -1088,18 +1087,18 @@ f B "spi_prewrite" 2 836 "void(int8 ,int32 data)" `548
 f N "spi_xfer_in" 2 837 ""
 f B "spi_xfer_in" 2 837 "int8()" `551 
 f N "spi_xfer_in" 2 838 ""
-f G "spi_xfer_in" 2 838 "int16(int8 bits)" `552 
+f G "spi_xfer_in" 2 838 "int16()" `552 
 f N "spi_xfer_in" 2 839 ""
-f G "spi_xfer_in" 2 839 "int32(int8 bits)" `552 
+f G "spi_xfer_in" 2 839 "int32()" `552 
 f N "spi_xfer_in" 2 840 ""
 v L "bits" 2 840 "int8" `553 
 f B "spi_xfer_in" 2 840 "int8(int8 bits)" `552 
 f N "spi_xfer_in" 2 841 ""
 v L "bits" 2 841 "int8" `555 
-f G "spi_xfer_in" 2 841 "int16(int8 bits,int8 bits)" `554 
+f G "spi_xfer_in" 2 841 "int16(int8 bits)" `554 
 f N "spi_xfer_in" 2 842 ""
 v L "bits" 2 842 "int8" `555 
-f G "spi_xfer_in" 2 842 "int32(int8 bits,int8 bits)" `554 
+f G "spi_xfer_in" 2 842 "int32(int8 bits)" `554 
 f N "spi_xfer_in" 2 843 ""
 v L "stream" 2 843 "int8" `555 
 v L "bits" 2 843 "int8" `556 
@@ -1107,15 +1106,15 @@ f B "spi_xfer_in" 2 843 "int8(int8 stream,int8 bits)" `554
 f N "spi_xfer_in" 2 844 ""
 v L "stream" 2 844 "int8" `555 
 v L "bits" 2 844 "int8" `559 
-f G "spi_xfer_in" 2 844 "int16(int8 stream,int8 bits,int8 task)" `557 
+f G "spi_xfer_in" 2 844 "int16(int8 stream,int8 bits)" `557 
 f N "spi_xfer_in" 2 845 ""
 v L "stream" 2 845 "int8" `555 
 v L "bits" 2 845 "int8" `559 
-f G "spi_xfer_in" 2 845 "int32(int8 stream,int8 bits,int8 task)" `557  "#use rtos() Prototypes:"
+f G "spi_xfer_in" 2 845 "int32(int8 stream,int8 bits)" `557  "#use rtos() Prototypes:"
 f N "rtos_run" 2 848 ""
-f B "rtos_run" 2 848 "void(int8 stream,int8 bits,int8 task)" `557 
+f B "rtos_run" 2 848 "void(int8 stream,int8 bits)" `557 
 f N "rtos_yield" 2 849 ""
-f B "rtos_yield" 2 849 "void(int8 bits,int8 task)" `558 
+f B "rtos_yield" 2 849 "void(int8 bits)" `558 
 f N "rtos_enable" 2 850 ""
 v L "task" 2 850 "int8" `560 
 f B "rtos_enable" 2 850 "void(int8 task)" `559 
@@ -1151,9 +1150,9 @@ f B "rtos_stats" 2 860 "void(int8 task,*int8 stat)" `577  "#use timer() Prototyp
 f N "get_ticks" 2 863 ""
 f B "get_ticks" 2 863 "int8()" `580 
 f N "get_ticks" 2 864 ""
-f G "get_ticks" 2 864 "int16(int8 stream)" `581 
+f G "get_ticks" 2 864 "int16()" `581 
 f N "get_ticks" 2 865 ""
-f G "get_ticks" 2 865 "int32(int8 stream)" `581 
+f G "get_ticks" 2 865 "int32()" `581 
 f N "get_ticks" 2 866 ""
 v L "stream" 2 866 "int8" `582 
 f B "get_ticks" 2 866 "int8(int8 stream)" `581 

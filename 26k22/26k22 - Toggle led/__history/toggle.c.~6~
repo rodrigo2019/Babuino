@@ -10,7 +10,7 @@ unsigned long long int i=0; //or int32 i=0;
    {
 
    output_toggle(PIN_13);
-   printf("%lu ",++i);
+   printf("%3lu ",++i);
    
    delay_ms(DELAY);
 

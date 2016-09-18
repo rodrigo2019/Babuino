@@ -1,6 +1,6 @@
-CCS PCH C Compiler, Version 5.058, 28901               18-set-16 18:29
+CCS PCH C Compiler, Version 5.058, 28901               18-set-16 18:57
 
-               Filename:   D:\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmwares testes\26k22\26k22 - Toggle led\toggle.lst
+               Filename:   D:\GitHub Repositories\Babuino\26k22\26k22 - Toggle led\toggle.lst
 
                ROM used:   472 bytes (1%)
                            Largest free fragment is 63780
@@ -381,7 +381,7 @@ CCS PCH C Compiler, Version 5.058, 28901               18-set-16 18:29
 ....................    output_toggle(PIN_13); 
 00694:  BCF    F94.3
 00696:  BTG    F8B.3
-....................    printf("%3lu ",++i); 
+....................    printf("%lu ",++i); 
 00698:  MOVLW  01
 0069A:  ADDWF  05,F
 0069C:  BTFSC  FD8.0
@@ -390,7 +390,7 @@ CCS PCH C Compiler, Version 5.058, 28901               18-set-16 18:29
 006A2:  INCF   07,F
 006A4:  BTFSC  FD8.2
 006A6:  INCF   08,F
-006A8:  MOVLW  03
+006A8:  MOVLW  41
 006AA:  MOVWF  FE9
 006AC:  MOVFF  08,0C
 006B0:  MOVFF  07,0B

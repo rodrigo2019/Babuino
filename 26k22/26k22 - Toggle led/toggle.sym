@@ -57,10 +57,10 @@ ROM Allocation:
 00068C  @cinit2
 
 Project Directory:
-    D:\Dropbox\Rodrigo\Projetos PIC\BABUINO v1\Firmwares testes\26k22\26k22 - Toggle led\
+    D:\GitHub Repositories\Babuino\26k22\26k22 - Toggle led\
 
 Project Files:
-    toggle.c                                                [18-set-16 18:29  CRC=D8102B21]
+    toggle.c                                                [18-set-16 18:57  CRC=D8102B21]
     babuino.h                                               [18-set-16 16:46  CRC=571831B2]
     C:\Program Files (x86)\PICC\Devices\18F26K22.h          [22-abr-16 11:24  CRC=97B61057]
     C:\Program Files (x86)\PICC\Drivers\bootloader.h        [17-abr-14 12:29  CRC=10C6F83E]
@@ -68,7 +68,7 @@ Project Files:
 Source signature=E86C5DA6
 Program memory checksum=0000
 Program memory CRC=0000
-Hex file CRC=D0EF
+Hex file CRC=0F33
 
 Units:
     toggle (main)

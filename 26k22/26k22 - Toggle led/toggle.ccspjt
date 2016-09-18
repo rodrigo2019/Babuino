@@ -16,15 +16,23 @@ Type=4
 [ProjectLog]
 Days=1
 D1=18-09-2016
-D1_L=3
+D1_L=7
 D1_L1=[66280]Project Opened.
 D1_L2=[66306]Started Editing.
 D1_L3=[66860]Stopped Editing.
+D1_L4=[68027]Project Opened.
+D1_L5=[68272]Started Editing.
+D1_L6=[68286]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L7=[68286]Project Closed.
 
 [Opened Files]
 1=toggle.c
-t1=3
-Count=3
+t1=1
+Count=1
 2=babuino.h
 t2=25
 3=..\..\1938\1938 - Send simple string\ex_bootload.c
@@ -33,7 +41,7 @@ t3=45
 Type=4
 
 [defines]
-buildcount=3
+buildcount=4
 [Units]
 Count=1
 1=toggle (main)
